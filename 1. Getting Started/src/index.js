@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-function buttonClicked() {
+document.getElementById("button1").addEventListener("click", function () {
     const el = document.getElementById("header");
     el.innerHTML = "Hey I have updated the code !";
 
@@ -12,5 +12,4 @@ function buttonClicked() {
         tempEl.innerHTML = item;
         ul.appendChild(tempEl);
     });
-
-}
+});
