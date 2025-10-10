@@ -46,7 +46,7 @@ module.exports = {
          patterns: [
             {
                from: path.resolve(__dirname, "src/assets/images"),
-               to: path.resolve(__dirname, "dist"),
+               to: path.resolve(__dirname, "dist/assets/images"),
             }
          ]
       }),
